@@ -39,3 +39,24 @@ function addIncrement (i) {
 console.log(addIncrement(0));
 console.log(addIncrement(9));
 console.log(addIncrement(-3));
+
+
+// Coding Challenge #3
+
+/* Convert Hours into Seconds
+
+Write a function that converts hours into seconds.
+
+howManySeconds(2) ➞ 7200
+
+howManySeconds(10) ➞ 36000
+
+howManySeconds(24) ➞ 86400 */
+
+function howManySeconds(hrs) {
+    return hrs * (60 * 60);
+}
+
+console.log(howManySeconds(2));
+console.log(howManySeconds(10));
+console.log(howManySeconds(24));
