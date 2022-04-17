@@ -1,0 +1,7 @@
+# Intellij
+.idea/*
+*.iml
+
+# misc
+.DS_STORE
+.vscode
