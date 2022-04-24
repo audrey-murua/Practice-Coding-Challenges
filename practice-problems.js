@@ -86,3 +86,21 @@ console.log(remainder(1, 3));
 console.log(remainder(3, 4));
 console.log(remainder(-9, 45));
 console.log(remainder(5, 5));
+
+// Coding Challenge #4
+
+/* Write a function that takes an integer minutes and converts it to seconds.
+
+convert(5) ➞ 300
+
+convert(3) ➞ 180
+
+convert(2) ➞ 120 */
+
+function minutesToSeconds(min) {
+    return min * 60;
+}
+
+console.log(minutesToSeconds(5));
+console.log(minutesToSeconds(3));
+console.log(minutesToSeconds(2));
