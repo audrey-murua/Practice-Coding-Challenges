@@ -104,3 +104,21 @@ function minutesToSeconds(min) {
 console.log(minutesToSeconds(5));
 console.log(minutesToSeconds(3));
 console.log(minutesToSeconds(2));
+
+// Coding Challenge #5
+
+/* Create a function that takes voltage and current and returns the calculated power.
+
+circuitPower(230, 10) ➞ 2300
+
+circuitPower(110, 3) ➞ 330
+
+circuitPower(480, 20) ➞ 9600 */
+
+function calcPower(voltage, current) {
+    return voltage * current;
+}
+
+console.log(calcPower(230, 10));
+console.log(calcPower(110, 3));
+console.log(calcPower(480, 20));
